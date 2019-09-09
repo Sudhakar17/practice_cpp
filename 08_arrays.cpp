@@ -16,7 +16,7 @@ int main() {
 
     for (i=0;i<n;i++)
     {
-        std::cout << a[n-1-i];
+        std::cout << a[n-1-i] << " ";
     }
 
     return 0;
