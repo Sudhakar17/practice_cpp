@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/box-it/problem
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -37,7 +38,7 @@ class Box
         int getHeight();
         long long CalculateVolume();
         friend bool operator < (Box&A, Box& B){
-        if( (A.l < B.l) || ((A.b < B.b) && (A.l == B.l)) || ((A.h < B.h) && (A.l == B.l)            && (A.b == B.b)) ){
+        if( (A.l < B.l) || ((A.b < B.b) && (A.l == B.l)) || ((A.h < B.h) && (A.l == B.l) && (A.b == B.b)) ){
             return true;
         }
         return false;
