@@ -20,12 +20,10 @@ int main() {
         v.push_back(x);
     }
 
-    
     //erase 1 element
     int k;
     std::cin>>k;
     v.erase(v.begin()+k-1);
-
 
     //erase the element based on range
     int r1,r2;
